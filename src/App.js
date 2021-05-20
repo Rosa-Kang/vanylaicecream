@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.jsx';
+import Navbar from './components/Nav/Navbar.jsx';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="wrapper">
+    <Router className="wrapper">
       <Navbar />
-    </div>
+      <Switch>
+        <Route />
+        <Route />
+      </Switch>
+    </Router>
   );
 }
 
