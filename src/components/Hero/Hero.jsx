@@ -1,6 +1,6 @@
 import '../Hero/style.css';
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button } from '../Button/Button';
 
 function Hero() {
     return (
