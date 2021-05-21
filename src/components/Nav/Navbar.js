@@ -6,6 +6,7 @@ import '../Nav/style.css'
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [navBlack, setNavBlack] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -17,6 +18,16 @@ function Navbar() {
       setButton(true);
     }
   };
+   
+  const changeBackground =() => {
+    if(window.scrollY >= 80) {
+        setNavBlack(true)
+    } else {
+       setNavBlack(false)
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground);
 
   useEffect(() => {
     showButton();
@@ -26,7 +37,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className={navBlack ? 'nav white':'navbar'}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
              AlgoRyhthm <i class="fab fa-squarespace"></i>
