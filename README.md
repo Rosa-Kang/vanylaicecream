@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img alt="gif" src="https://user-images.githubusercontent.com/49248131/119173632-5f8f2780-ba1c-11eb-95d4-43fece2899d7.mp4">
+![demo (1)](https://user-images.githubusercontent.com/49248131/119174323-4cc92280-ba1d-11eb-8127-44267a25974f.gif)
 
 ### `yarn start`
 
