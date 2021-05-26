@@ -40,7 +40,7 @@ function Navbar() {
       <nav className={navBlack ? 'nav white':'navbar'}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-             AlgoRyhthm <i class="fab fa-squarespace"></i>
+             AlgoRyhthm<i class="fab fa-squarespace"></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
