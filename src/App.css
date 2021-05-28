@@ -17,22 +17,24 @@
   font-size: 3rem;
 }
 
+.headline {
+  font-size:14.5vw;
+}
+
 .services {
   background-image: url('./images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
 }
 
 .products {
   background-image: url('./images/img-1.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
 }
 
 .sign-up {
@@ -41,5 +43,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+}
+
+@media screen and (min-width: 768px) {
+   .headline {
+     font-size: 15vw;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .headline {
+     font-size: 8vw;
+   }
 }

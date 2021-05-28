@@ -2,9 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+![demo (1)](https://user-images.githubusercontent.com/49248131/119174323-4cc92280-ba1d-11eb-8127-44267a25974f.gif)
 
 ### `yarn start`
 

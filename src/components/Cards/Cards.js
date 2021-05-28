@@ -10,7 +10,7 @@ import img8 from '../../images/img-8.jpg';
 function Cards() {
   return (
    <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1 id="get-started">Check out these EPIC Destinations!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -36,7 +36,7 @@ function Cards() {
             />
             <CardItem
               src={img4}
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Experience Football on Top of the Himalayan Mountains'
               label='Adventure'
               path='/products'
             />
